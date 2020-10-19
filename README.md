@@ -1,4 +1,3 @@
 
-## Pharma Ecommerce
+## Digitex App
 
-This is a Pharmaceutical e-commerce App
