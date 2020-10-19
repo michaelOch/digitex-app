@@ -101,7 +101,7 @@ function HomeView() {
                                     <div className="d-flex flex-column">
                                         <h2 className="my-5">2019</h2>
                                         <div className="position-relative d-flex justify-content-between align-items-center">
-                                            <div className="horizontal-line"></div>
+                                            <div className="horizontal-line active"></div>
                                             <div className="">
                                                 <div className="circle active"></div>
                                                 <h5 className="active">March 1st 2019</h5>
@@ -129,7 +129,7 @@ function HomeView() {
                                     <div className="d-flex flex-column">
                                         <h2 className="my-5">2020</h2>
                                         <div className="position-relative d-flex justify-content-between align-items-center">
-                                            <div className="horizontal-line"></div>
+                                            <div className="horizontal-line active"></div>
                                             <div className="">
                                                 <div className="circle active"></div>
                                                 <h5 className="active">March 1st 2020</h5>
