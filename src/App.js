@@ -6,7 +6,7 @@ import Home from './pages/HomeView/HomeView';
 function App() {
   return (
     <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div className="">
                 <Route exact path="/" component={Home} />
             </div>
