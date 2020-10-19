@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/digitex-app/static/css/main.22749773.chunk.css",
-    "main.js": "/digitex-app/static/js/main.b395b979.chunk.js",
-    "main.js.map": "/digitex-app/static/js/main.b395b979.chunk.js.map",
+    "main.js": "/digitex-app/static/js/main.a234c340.chunk.js",
+    "main.js.map": "/digitex-app/static/js/main.a234c340.chunk.js.map",
     "runtime-main.js": "/digitex-app/static/js/runtime-main.116fcc2d.js",
     "runtime-main.js.map": "/digitex-app/static/js/runtime-main.116fcc2d.js.map",
     "static/css/2.6d4ecc00.chunk.css": "/digitex-app/static/css/2.6d4ecc00.chunk.css",
     "static/js/2.ad18c16b.chunk.js": "/digitex-app/static/js/2.ad18c16b.chunk.js",
     "static/js/2.ad18c16b.chunk.js.map": "/digitex-app/static/js/2.ad18c16b.chunk.js.map",
     "index.html": "/digitex-app/index.html",
-    "precache-manifest.cd75f96ffe0c58b3c531e5f2e47fdfe7.js": "/digitex-app/precache-manifest.cd75f96ffe0c58b3c531e5f2e47fdfe7.js",
+    "precache-manifest.8ce401f32c5a20c45114bc6a89fc95d9.js": "/digitex-app/precache-manifest.8ce401f32c5a20c45114bc6a89fc95d9.js",
     "service-worker.js": "/digitex-app/service-worker.js",
     "static/css/2.6d4ecc00.chunk.css.map": "/digitex-app/static/css/2.6d4ecc00.chunk.css.map",
     "static/css/main.22749773.chunk.css.map": "/digitex-app/static/css/main.22749773.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.6d4ecc00.chunk.css",
     "static/js/2.ad18c16b.chunk.js",
     "static/css/main.22749773.chunk.css",
-    "static/js/main.b395b979.chunk.js"
+    "static/js/main.a234c340.chunk.js"
   ]
 }

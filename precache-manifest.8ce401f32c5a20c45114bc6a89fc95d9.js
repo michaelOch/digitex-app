@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a07ed799547704d28a87382400f658d",
+    "revision": "6a508809192d654a933e92bc2a96474e",
     "url": "/digitex-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/digitex-app/static/css/2.6d4ecc00.chunk.css"
   },
   {
-    "revision": "7b39b29b7e7ecd4c91f7",
+    "revision": "94305a716d94de81a23a",
     "url": "/digitex-app/static/css/main.22749773.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/digitex-app/static/js/2.ad18c16b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b39b29b7e7ecd4c91f7",
-    "url": "/digitex-app/static/js/main.b395b979.chunk.js"
+    "revision": "94305a716d94de81a23a",
+    "url": "/digitex-app/static/js/main.a234c340.chunk.js"
   },
   {
     "revision": "9757b283fac8c9d87a33",
