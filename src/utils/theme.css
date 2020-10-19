@@ -1,0 +1,11 @@
+:root {
+	--theme-primary: #000000;
+    --theme-secondary: #1CB7ED;
+    --theme-light: #E8F8FD;
+    --theme-white: #ffffff;
+    --theme-grey: #00000080;
+    --theme-primary-light: #1a1f2f;
+    --theme-secondary-light: #1CB7ED86;
+    --theme-secondary-lighter: #1CB7ED59;
+    --theme-success: #27ae60;
+}

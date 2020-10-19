@@ -1,0 +1,561 @@
+@import '../../utils/theme.css';
+
+.text-primary {
+    color: var(--theme-primary) !important;
+}
+
+.text-secondary {
+    color: var(--theme-secondary) !important;
+}
+
+.btn-secondary {
+    padding: 11px 39px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--theme-white);
+    background-color: var(--theme-secondary);
+    border: 2px solid var(--theme-secondary);
+    border-radius: 0;
+    transition: 0.8s;
+}
+
+.btn-secondary:hover {
+    color: var(--theme-secondary);
+    background-color: var(--theme-white);
+    border: 2px solid var(--theme-secondary);
+}
+
+.btn-outline-primary {
+    padding: 11px 39px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--theme-primary);
+    background-color: var(--theme-white);
+    border: 2px solid var(--theme-primary);
+    border-radius: 0;
+    transition: 0.8s;
+}
+
+.btn-outline-primary:hover {
+    color: var(--theme-white);
+    background-color: var(--theme-primary);
+    border: 2px solid var(--theme-primary);
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.introduction-section {
+    padding: 2rem 0;
+}
+
+.introduction-section h2{
+    font-size: 52px;
+    line-height: 56px;
+}
+
+.introduction-section a{
+    color: var(--theme-secondary);
+    text-decoration: underline;
+}
+
+.introduction-section .left-content p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.introduction-section .left-content span {
+    font-size: 18px;
+}
+
+.introduction-section .right-content {
+    background-color: var(--theme-light);
+}
+
+.introduction-section .right-content h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.introduction-section .right-content h4 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.introduction-section .right-content p {
+    color: var(--theme-secondary);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.introduction-section .right-content .progress {
+    background-color: var(--theme-white);
+}
+
+.introduction-section .right-content .etherscan p {
+    font-size: 14px;
+}
+
+.introduction-section .right-content .etherscan-wrapper {
+    border: 1px solid var(--theme-secondary);
+    border-radius: 12px;
+}
+
+.schedule-section {
+    background-color: var(--theme-primary);
+    color: var(--theme-white);
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.schedule-section .horizontal-line {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--theme-success);
+}
+
+.schedule-section .circle {
+    width: 26px;
+    height: 26px;
+    background-color: var(--theme-secondary);
+    border: 1px solid var(--theme-secondary);
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+
+.schedule-section .circle.active {
+    width: 26px;
+    height: 26px;
+    background-color: var(--theme-success);
+    border: 1px solid var(--theme-success);
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+
+.schedule-section h5 {
+    font-size: 14px;
+    color: var(--theme-secondary);
+}
+
+.schedule-section h5.active {
+    font-size: 14px;
+    color: var(--theme-success);
+}
+
+.schedule-section h6 {
+    font-size: 14px;
+}
+
+.schedule-section .carousel-indicators {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.schedule-section .carousel-indicators li {
+    cursor: pointer;
+    width: max-content;
+    text-indent: 0;
+    background-color: transparent;
+    color: var(--theme-white);
+    border: 0;
+    opacity: 1;
+}
+
+.schedule-section .carousel-indicators li {
+    font-size: 18px;
+}
+
+.schedule-section .carousel-indicators li.active {
+    background: transparent;
+    color: var(--theme-secondary);
+}
+
+.trade-section {
+    background-color: var(--theme-primary);
+    color: var(--theme-white);
+    padding: 4rem 0;
+}
+
+.trade-section p {
+    font-size: 18px;
+}
+
+.trade-section .trade-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.trade-section .trade-carousel {
+    margin-top: 4rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    .trade-carousel .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    
+    /* Show 3rd slide on sm if col-sm-6*/
+    .trade-carousel .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) {
+    .trade-carousel .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .trade-carousel .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .trade-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .trade-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .trade-carousel .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .trade-carousel .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .trade-carousel .carousel-item-next.carousel-item-left + .carousel-item,
+    .trade-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .trade-carousel .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .trade-carousel .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .trade-carousel .carousel-item-prev.carousel-item-right + .carousel-item,
+    .trade-carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* MD */
+@media (min-width: 768px) {
+    
+    /* show 3rd of 3 item slide */
+    .trade-carousel .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .trade-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .trade-carousel .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .trade-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .trade-carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* LG */
+@media (min-width: 991px) {
+    /* show 4th item */
+    .trade-carousel .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .trade-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    /* Show 5th slide on lg if col-lg-3 */
+    .trade-carousel .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .trade-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .trade-carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+
+.trade-section .carousel .carousel-control-prev {
+    width: 5%;
+    position: absolute;
+    left: 45%;
+    top: 0;
+    align-items: flex-end;
+}
+
+.trade-section .carousel .carousel-control-next {
+    width: 5%;
+    position: absolute;
+    right: 45%;
+    top: 0;
+    align-items: flex-end;
+}
+
+.trade-section .carousel .carousel-control-prev-icon,
+.trade-section .carousel .carousel-control-next-icon {
+    margin-bottom: -40px;
+}
+
+.trade-section .carousel-content h4 {
+    font-size: 32px;
+}
+
+.trade-section .carousel-content .img-wrapper {
+    height: 170px;
+}
+
+.trade-section .carousel-content .img-wrapper img {
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.trade-section .carousel-content .img-wrapper:hover img {
+    filter: grayscale(0%);
+}
+
+.trade-section .overlay {
+    background-color: #1a1f2f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.trade-section .carousel-content .title a {
+    color: var(--theme-white);
+}
+
+.trade-section .carousel-content .title a:hover {
+    color: var(--theme-secondary);
+    text-decoration: none;
+}
+
+.trade-section .carousel-content a {
+    color: var(--theme-secondary);
+}
+
+.trade-section .carousel-content a:hover {
+    text-decoration: none;
+}
+
+.trade-section .carousel-content span {
+    font-size: 18px;
+}
+
+.what-section {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.what-section p {
+    font-size: 26px;
+}
+
+.what-section .what-intro {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.what-section .youtube-container {
+    margin-top: 5rem;
+    border: 24px solid var(--theme-grey);
+    border-radius: 8px;
+}
+
+.distribution-section {
+    padding: 5rem 0;
+}
+
+.distribution-section p {
+    font-size: 26px;
+    margin-top: 2rem;
+}
+
+.distribution-section .distribution-content {
+    margin-top: 5rem;
+}
+
+.distribution-section .distribution-content .caption {
+    color: var(--theme-white);
+    background-color: var(--theme-secondary-light);
+}
+
+.distribution-section .distribution-content .empty-content {
+    height: 100px;
+    border-left: 1px solid var(--theme-grey);
+}
+
+.distribution-section .distribution-content h4 {
+    font-size: 22px;
+}
+
+.distribution-section .distribution-content p {
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.distribution-section .distribution-content .content-box {
+    /* min-width: 150px; */
+    margin-left: 1px;
+}
+
+.stat-section {
+    padding: 5rem 0;
+}
+
+.stat-section tbody tr:nth-child(odd) {
+    background-color: rgba(28, 183, 237, .1);
+}
+
+.stat-section th,
+.stat-section td {
+    font-size: 18px;
+    padding: 1rem;
+    vertical-align: middle;
+    border: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 11px 20px !important;
+    }
+
+    .introduction-section h2{
+        font-size: 36px;
+        line-height: 40px;
+        margin: 0 !important;
+    }
+
+    .trade-section .carousel-content .img-wrapper img {
+        filter: grayscale(0%);
+    }
+
+    .trade-section .carousel .carousel-control-prev {
+        width: 5%;
+        position: absolute;
+        left: 5%;
+        top: 0;
+        align-items: flex-end;
+    }
+    
+    .trade-section .carousel .carousel-control-next {
+        width: 5%;
+        position: absolute;
+        right: 80%;
+        top: 0;
+        align-items: flex-end;
+    }
+
+    .what-section {
+        padding: 2rem 0;
+    }
+    
+    .what-section p {
+        font-size: 20px;
+    }
+
+    .what-section .youtube-container {
+        margin: 0;
+        border: 0;
+    }
+
+    .distribution-section {
+        padding: 2rem 0;
+    }
+
+    .distribution-section p {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .distribution-section .distribution-content {
+        margin: 0;
+    }
+
+    .distribution-section .distribution-content h4 {
+        font-size: 10px;
+    }
+    
+    .distribution-section .distribution-content p {
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+
+    .distribution-section .distribution-content .empty-content {
+        height: 50px;
+    }
+    
+    .distribution-section .distribution-content .content-box {
+        max-width: 100px;
+    }
+
+    .stat-section {
+        padding: 2rem 0;
+    }
+
+    .stat-section th,
+    .stat-section td {
+        font-size: 14px;
+        padding: 1rem;
+    }
+}

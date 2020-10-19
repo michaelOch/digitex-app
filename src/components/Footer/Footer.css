@@ -1,0 +1,60 @@
+@import '../../utils/theme.css';
+
+.footer-section {
+    background: var(--theme-primary);
+    color: var(--theme-white);
+    padding: 2rem 0;
+}
+
+.footer-section p {
+    line-height: 30px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-section a {
+    color: var(--theme-white);
+}
+
+.footer-section a:hover {
+    text-decoration: none;
+}
+
+.footer-section td {
+    vertical-align: middle;
+}
+
+.footer-section td > p {
+    color: var(--theme-white);
+}
+
+.footer-section .contact {
+    font-size: 13px;
+}
+
+.footer-section .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, .25);
+}
+
+.footer-section .footer-bottom li {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer-section .content-wrapper {
+        border-bottom: 2px dotted var(--theme-secondary);
+    }
+
+    .footer-section .footer-bottom {
+        justify-content: center !important;
+    }
+}
