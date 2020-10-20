@@ -16,14 +16,16 @@ function HomeView() {
                 {/** Introduction Section */}
                 <section className="introduction-section">
                     <div className="container">
-                        <h2 className="">
-                            <span className="text-secondary">Digitex</span><span className="text-primary"> Treasury</span>
-                        </h2>
                         <div className="row">
                             <div className="col-md-5 mt-3">
                                 <div className="d-flex flex-column justify-content-center align-items-center h-100 left-content">
+                                    <h2 className="text-secondary">
+                                        Defi Gateway Built For You, not for Techies
+                                        {/* <span className="text-primary"></span> */}
+                                    </h2>
                                     <p className="mt-4">
-                                        The Digitex Treasury allows you to buy DGTX easily and instantly with zero slippage or commissions - without having to go through an exchange. At the same time, it funds our continued operations in development and marketing. For more information about DGTX tokenomics, visit our <Link to="/"><span className="">Knowledge Base</span></Link>
+                                        {/* The Digitex Treasury allows you to buy DGTX easily and instantly with zero slippage or commissions - without having to go through an exchange. At the same time, it funds our continued operations in development and marketing. For more information about DGTX tokenomics, visit our <Link to="/"><span className="">Knowledge Base</span></Link> */}
+                                        Yearn Finance centre is a simple, intuitive interface to all of Defi for non-techies.
                                     </p>
                                     <div className="row">
                                         <div className="col-md-6 mt-4">
@@ -54,31 +56,33 @@ function HomeView() {
                                 </div>
                             </div>
                             <div className="col-md-5 offset-md-2 mt-3">
-                                <div className="right-content py-3 px-5">
-                                    <h3 className="text-center">Token Sale Live!</h3>
-                                    <span className="btn btn-block btn-secondary my-4">Buy DGTX Tokens</span>
-                                    <div className="d-flex flex-wrap justify-content-between align-items-center">
-                                        <div className="">
-                                            <h4 className="">983,233.58</h4>
-                                            <p className="">DGTX available</p>
-                                        </div>
-                                        <div className="">
-                                            <h4 className="">$0.0318</h4>
-                                            <p className="">DGTX price</p>
-                                        </div>
-                                    </div>
-                                    <div className="d-flex align-items-center progress my-2">
-                                        <div className="" style={{height: "12px", background: `${theme.colors.secondary}`, width: "9.83234%"}}></div>
-                                    </div>
-                                    <div className="d-flex justify-content-between align-items-center etherscan">
-                                        <div className="">
-                                            <p className="mb-0 mr-2">View Digitex Treasury smart contract on etherscan</p>
-                                        </div>
-                                        <Link to="/">
-                                            <div className="etherscan-wrapper px-3">
-                                                <img src="./images/etherium.webp" alt="etherscan" className="" />
+                                <div className="d-flex align-items-center h-100">
+                                    <div className="right-content py-3 px-5">
+                                        <h3 className="text-center">Token Sale Live!</h3>
+                                        <span className="btn btn-block btn-secondary my-4">Buy DGTX Tokens</span>
+                                        <div className="d-flex flex-wrap justify-content-between align-items-center">
+                                            <div className="">
+                                                <h4 className="">983,233.58</h4>
+                                                <p className="">DGTX available</p>
                                             </div>
-                                        </Link>
+                                            <div className="">
+                                                <h4 className="">$0.0318</h4>
+                                                <p className="">DGTX price</p>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex align-items-center progress my-2">
+                                            <div className="" style={{height: "12px", background: `${theme.colors.secondary}`, width: "9.83234%"}}></div>
+                                        </div>
+                                        <div className="d-flex justify-content-between align-items-center etherscan">
+                                            <div className="">
+                                                <p className="mb-0 mr-2">View Digitex Treasury smart contract on etherscan</p>
+                                            </div>
+                                            <Link to="/">
+                                                <div className="etherscan-wrapper px-3">
+                                                    <img src="./images/etherium.webp" alt="etherscan" className="" />
+                                                </div>
+                                            </Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -88,6 +92,75 @@ function HomeView() {
 
                 {/** Schedule Section */}
                 <section className="schedule-section">
+                    <div className="container">
+                        {/* <h2 className="mb-4">DGTX Release schedule</h2> */}
+                        <h2 className="mb-4 text-center">Presale Stages</h2>
+                        <div id="carouselSchedule" className="carousel slide" data-interval="false" data-ride="carousel">
+                            <ol className="carousel-indicators">
+                                <li data-target="#carouselSchedule" data-slide-to="0" className="mx-3 active">Round 1</li>
+                                <li data-target="#carouselSchedule" data-slide-to="1" className="mx-3">Round 2</li>
+                                <li data-target="#carouselSchedule" data-slide-to="2" className="mx-3">Round 3</li>
+                            </ol>
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <div className="row">
+                                        <div className="col-md-6 offset-md-3 mt-5">
+                                            <div className="mt-5">
+                                                <div className="card">
+                                                    <div className="card-header">
+                                                        <h3 className="mb-0 text-center">Round 1</h3>
+                                                        <h6 className="text-center active">October 21st</h6>
+                                                    </div>
+                                                    <div className="card-body py-5">
+                                                        <h3 className="text-center active">1 YFC = 60$</h3>
+                                                        <h6 className="text-center">5000 YFC</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <div className="row">
+                                        <div className="col-md-6 offset-md-3 mt-5">
+                                            <div className="mt-5">
+                                                <div className="card">
+                                                    <div className="card-header">
+                                                        <h3 className="mb-0 text-center">Round 2</h3>
+                                                        <h6 className="text-center active">October 25th</h6>
+                                                    </div>
+                                                    <div className="card-body py-5">
+                                                        <h3 className="text-center active">1 YFC = TBA</h3>
+                                                        <h6 className="text-center">5000 YFC</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <div className="row">
+                                        <div className="col-md-6 offset-md-3 mt-5">
+                                            <div className="mt-5">
+                                                <div className="card">
+                                                    <div className="card-header">
+                                                        <h3 className="mb-0 text-center">Round 3</h3>
+                                                        <h6 className="text-center active">October 29th</h6>
+                                                    </div>
+                                                    <div className="card-body py-5">
+                                                        <h3 className="text-center active">1 YFC = TBA</h3>
+                                                        <h6 className="text-center">3000 YFC</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* <section className="schedule-section">
                     <div className="container">
                         <h2 className="mb-4">DGTX Release schedule</h2>
                         <div id="carouselSchedule" className="carousel slide" data-interval="false" data-ride="carousel">
@@ -184,7 +257,7 @@ function HomeView() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 {/** Trade Section */}
                 <section className="trade-section">
@@ -379,6 +452,21 @@ function HomeView() {
                 <section className="what-section">
                     <div className="container">
                         <h2 className="text-center">
+                            <span className="text-secondary">What is Yearn Finance Center</span>
+                        </h2>
+                        <div className="what-intro">
+                            <p className="text-center">
+                                Yearn Finance centre is a simple, intuitive interface to all of Defi for non-techies. Yearn Finance Center aspires to be the gateway to yield-generating platforms in the Ethereum ecosystem for non-techies.
+                            </p>
+                            <p className="text-center mt-5">
+                                Yearn Finance Center utilizes Defi protocols such as Curve, Compound, Aave, and dYdX to optimize token lending for non-techies. In a nutshell, it is a simplified intuitive interface that diverts liquidity to different sectors of the Defi universe to find the best returns.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                {/* <section className="what-section">
+                    <div className="container">
+                        <h2 className="text-center">
                             <span className="text-primary">What is the</span>
                             <span className="text-secondary"> DGTX token</span>
                         </h2>
@@ -393,7 +481,7 @@ function HomeView() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 {/** Distribution Section */}
                 <section className="distribution-section">

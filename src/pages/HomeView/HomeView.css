@@ -110,6 +110,14 @@ h2 {
     padding-bottom: 3rem;
 }
 
+.schedule-section .card-header {
+    background-color: var(--theme-secondary);
+}
+
+.schedule-section .card-body {
+    background-color: var(--theme-primary);
+}
+
 .schedule-section .horizontal-line.active {
     position: absolute;
     top: 12px;
@@ -408,8 +416,12 @@ h2 {
 }
 
 .what-section p {
-    font-size: 26px;
+    font-size: 20px;
 }
+
+/* .what-section p {
+    font-size: 26px;
+} */
 
 .what-section .what-intro {
     max-width: 900px;
