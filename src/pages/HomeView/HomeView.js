@@ -8,6 +8,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './HomeView.css';
 import theme from '../../utils/theme';
 
+import saleIcon from '../../utils/assets/sale-icon.svg';
+import saleIcon2 from '../../utils/assets/sale-icon-2.svg';
+import saleIcon3 from '../../utils/assets/sale-icon-3.svg';
+import saleIcon4 from '../../utils/assets/sale-icon-4.svg';
+import etheriumIcon from '../../utils/assets/etherium.webp';
+import changellyIcon from '../../utils/assets/changelly.webp';
+import coindcxIcon from '../../utils/assets/coindcx.webp';
+import coinexIcon from '../../utils/assets/coinex.webp';
+import fatbtcIcon from '../../utils/assets/fatbtc.webp';
+import hitbtcIcon from '../../utils/assets/hitbtc.webp';
+import kucoinIcon from '../../utils/assets/kucoin.webp';
+import mercatoxIcon from '../../utils/assets/mercatox.webp';
+import probitIcon from '../../utils/assets/probit.webp';
+import vccExchangeIcon from '../../utils/assets/vcc-exchange.webp';
+
 function HomeView() {
 
     return (
@@ -17,7 +32,7 @@ function HomeView() {
                 <section className="introduction-section">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-5 mt-3">
+                            <div className="col-md-6 mt-3">
                                 <div className="d-flex flex-column justify-content-center align-items-center h-100 left-content">
                                     <h2 className="text-secondary">
                                         Defi Gateway Built For You, not for Techies
@@ -30,33 +45,33 @@ function HomeView() {
                                     <div className="row">
                                         <div className="col-md-6 mt-4">
                                             <div className="d-flex align-items-center">
-                                                <img src="./images/sale-icon.svg" alt="sale icon" className="d-block mr-3" />
+                                                <img src={saleIcon} alt="sale icon" className="d-block mr-3" />
                                                 <span className="">Instant transaction</span>
                                             </div>
                                         </div>
                                         <div className="col-md-6 mt-4">
                                             <div className="d-flex align-items-center">
-                                                <img src="./images/sale-icon-2.svg" alt="sale icon" className="d-block mr-3" />
+                                                <img src={saleIcon2} alt="sale icon" className="d-block mr-3" />
                                                 <span className="">Trustless transaction</span>
                                             </div>
                                         </div>
                                         <div className="col-md-6 mt-4">
                                             <div className="d-flex align-items-center">
-                                                <img src="./images/sale-icon-3.svg" alt="sale icon" className="d-block mr-3" />
+                                                <img src={saleIcon3} alt="sale icon" className="d-block mr-3" />
                                                 <span className="">No price slippage</span>
                                             </div>
                                         </div>
                                         <div className="col-md-6 mt-4">
                                             <div className="d-flex align-items-center">
-                                                <img src="./images/sale-icon-4.svg" alt="sale icon" className="d-block mr-3" />
+                                                <img src={saleIcon4} alt="sale icon" className="d-block mr-3" />
                                                 <span className="">No commission</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-5 offset-md-2 mt-3">
-                                <div className="d-flex align-items-center h-100">
+                            <div className="col-md-5 offset-md-1 mt-3">
+                                <div className="d-flex justify-content-center align-items-center h-100">
                                     <div className="right-content py-3 px-5">
                                         <h3 className="text-center">Token Sale Live!</h3>
                                         <span className="btn btn-block btn-secondary my-4">Buy DGTX Tokens</span>
@@ -79,7 +94,7 @@ function HomeView() {
                                             </div>
                                             <Link to="/">
                                                 <div className="etherscan-wrapper px-3">
-                                                    <img src="./images/etherium.webp" alt="etherscan" className="" />
+                                                    <img src={etheriumIcon} alt="etherscan" className="" />
                                                 </div>
                                             </Link>
                                         </div>
@@ -277,7 +292,7 @@ function HomeView() {
                                             <div className="position-relative d-flex justify-content-center align-items-center img-wrapper p-4">
                                                 <div className="overlay"></div>
                                                 <Link to="/" className="">
-                                                    <img src="./images/kucoin.webp" alt="" className="d-block w-100" />
+                                                    <img src={kucoinIcon} alt="" className="d-block w-100" />
                                                 </Link>
                                             </div>
                                             <h4 className="my-3 title">
@@ -295,7 +310,7 @@ function HomeView() {
                                             <div className="position-relative d-flex justify-content-center align-items-center img-wrapper p-4">
                                                 <div className="overlay"></div>
                                                 <Link to="/">
-                                                    <img src="./images/probit.webp" alt="" className="d-block w-100" />
+                                                    <img src={probitIcon} alt="" className="d-block w-100" />
                                                 </Link>
                                             </div>
                                             <h4 className="my-3 title">
@@ -313,7 +328,7 @@ function HomeView() {
                                             <div className="position-relative d-flex justify-content-center align-items-center img-wrapper p-4">
                                                 <div className="overlay"></div>
                                                 <Link to="/">
-                                                    <img src="./images/vcc-exchange.webp" alt="" className="d-block w-100" />
+                                                    <img src={vccExchangeIcon} alt="" className="d-block w-100" />
                                                 </Link>
                                             </div>
                                             <h4 className="my-3 title">
@@ -331,7 +346,7 @@ function HomeView() {
                                             <div className="position-relative d-flex justify-content-center align-items-center img-wrapper p-4">
                                                 <div className="overlay"></div>
                                                 <Link to="/">
-                                                    <img src="./images/coindcx.webp" alt="" className="d-block w-100" />
+                                                    <img src={coindcxIcon} alt="" className="d-block w-100" />
                                                 </Link>
                                             </div>
                                             <h4 className="my-3 title">
@@ -349,7 +364,7 @@ function HomeView() {
                                             <div className="position-relative d-flex justify-content-center align-items-center img-wrapper p-4">
                                                 <div className="overlay"></div>
                                                 <Link to="/">
-                                                    <img src="./images/coinex.webp" alt="" className="d-block w-100" />
+                                                    <img src={coinexIcon} alt="" className="d-block w-100" />
                                                 </Link>
                                             </div>
                                             <h4 className="my-3 title">
@@ -367,7 +382,7 @@ function HomeView() {
                                             <div className="position-relative d-flex justify-content-center align-items-center img-wrapper p-4">
                                                 <div className="overlay"></div>
                                                 <Link to="/">
-                                                    <img src="./images/mercatox.webp" alt="" className="d-block w-100" />
+                                                    <img src={mercatoxIcon} alt="" className="d-block w-100" />
                                                 </Link>
                                             </div>
                                             <h4 className="my-3 title">
@@ -385,7 +400,7 @@ function HomeView() {
                                             <div className="position-relative d-flex justify-content-center align-items-center img-wrapper p-4">
                                                 <div className="overlay"></div>
                                                 <Link to="/">
-                                                    <img src="./images/changelly.webp" alt="" className="d-block w-100" />
+                                                    <img src={changellyIcon} alt="" className="d-block w-100" />
                                                 </Link>
                                             </div>
                                             <h4 className="my-3 title">
@@ -403,7 +418,7 @@ function HomeView() {
                                             <div className="position-relative d-flex justify-content-center align-items-center img-wrapper p-4">
                                                 <div className="overlay"></div>
                                                 <Link to="/">
-                                                    <img src="./images/hitbtc.webp" alt="" className="d-block w-100" />
+                                                    <img src={hitbtcIcon} alt="" className="d-block w-100" />
                                                 </Link>
                                             </div>
                                             <h4 className="my-3 title">
@@ -421,7 +436,7 @@ function HomeView() {
                                             <div className="position-relative d-flex justify-content-center align-items-center img-wrapper p-4">
                                                 <div className="overlay"></div>
                                                 <Link to="/">
-                                                    <img src="./images/fatbtc.webp" alt="" className="d-block w-100" />
+                                                    <img src={fatbtcIcon} alt="" className="d-block w-100" />
                                                 </Link>
                                             </div>
                                             <h4 className="my-3 title">

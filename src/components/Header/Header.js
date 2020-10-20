@@ -7,6 +7,8 @@ import theme from '../../utils/theme';
 
 import './Header.css';
 
+import logo from '../../utils/assets/logo.svg';
+
 function Header() {
 
     const pages = [
@@ -30,7 +32,7 @@ function Header() {
             <nav className="navbar navbar-expand-lg fixed-top py-3">
                 <div className="container-fluid">
                     <div className="">
-                        <img src="./images/logo.svg" alt="logo" className="" />
+                        <img src={logo} alt="logo" className="" />
                     </div>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <FontAwesomeIcon icon={faBars} color={theme.colors.white} />
@@ -50,7 +52,7 @@ function Header() {
                         </div>
                         <ul className="navbar-nav">
                             {pages.map((page, i) => (
-                                <li key={i + 1} className={`nav-item ${ i === 0 ? 'ml-4' : 'mx-2' }`}>
+                                <li key={i + 1} className={`nav-item ${ i === 0 ? 'ml-3' : 'mx-1' }`}>
                                     <Link to={page.link}>
                                         <span className={`nav-link px-3 ${ i !== 0 ? 'left-bar' : '' }`}>{page.title}</span>
                                     </Link>

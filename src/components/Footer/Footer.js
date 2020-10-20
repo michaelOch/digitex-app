@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../utils/assets/logo.svg';
 import { Link } from "react-router-dom";
 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -17,7 +18,7 @@ function Footer() {
                     <div className="col-md-3 mt-2">
                         <div className="d-flex flex-column justify-content-between h-100">
                             <div className="mb-5">
-                                <img src="./images/logo.svg" alt="logo" className="" />
+                                <img src={logo} alt="logo" className="" />
                             </div>
                             <div className="d-flex flex-wrap align-items-center">
                                 <Link to="/">
