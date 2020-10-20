@@ -1,25 +1,40 @@
 {
   "files": {
-    "main.css": "/digitex-app/static/css/main.84ceb500.chunk.css",
-    "main.js": "/digitex-app/static/js/main.9aa63751.chunk.js",
-    "main.js.map": "/digitex-app/static/js/main.9aa63751.chunk.js.map",
+    "main.css": "/digitex-app/static/css/main.7911f13d.chunk.css",
+    "main.js": "/digitex-app/static/js/main.a49b60b6.chunk.js",
+    "main.js.map": "/digitex-app/static/js/main.a49b60b6.chunk.js.map",
     "runtime-main.js": "/digitex-app/static/js/runtime-main.116fcc2d.js",
     "runtime-main.js.map": "/digitex-app/static/js/runtime-main.116fcc2d.js.map",
     "static/css/2.6d4ecc00.chunk.css": "/digitex-app/static/css/2.6d4ecc00.chunk.css",
-    "static/js/2.ad18c16b.chunk.js": "/digitex-app/static/js/2.ad18c16b.chunk.js",
-    "static/js/2.ad18c16b.chunk.js.map": "/digitex-app/static/js/2.ad18c16b.chunk.js.map",
+    "static/js/2.218ad6f0.chunk.js": "/digitex-app/static/js/2.218ad6f0.chunk.js",
+    "static/js/2.218ad6f0.chunk.js.map": "/digitex-app/static/js/2.218ad6f0.chunk.js.map",
     "index.html": "/digitex-app/index.html",
-    "precache-manifest.a900e9298d85e9633913c2f414a8bf95.js": "/digitex-app/precache-manifest.a900e9298d85e9633913c2f414a8bf95.js",
+    "precache-manifest.8fb92b4dd64e1180be7fff809c7dbb6a.js": "/digitex-app/precache-manifest.8fb92b4dd64e1180be7fff809c7dbb6a.js",
     "service-worker.js": "/digitex-app/service-worker.js",
     "static/css/2.6d4ecc00.chunk.css.map": "/digitex-app/static/css/2.6d4ecc00.chunk.css.map",
-    "static/css/main.84ceb500.chunk.css.map": "/digitex-app/static/css/main.84ceb500.chunk.css.map",
-    "static/js/2.ad18c16b.chunk.js.LICENSE.txt": "/digitex-app/static/js/2.ad18c16b.chunk.js.LICENSE.txt"
+    "static/css/main.7911f13d.chunk.css.map": "/digitex-app/static/css/main.7911f13d.chunk.css.map",
+    "static/js/2.218ad6f0.chunk.js.LICENSE.txt": "/digitex-app/static/js/2.218ad6f0.chunk.js.LICENSE.txt",
+    "static/media/changelly.webp": "/digitex-app/static/media/changelly.16edda61.webp",
+    "static/media/coindcx.webp": "/digitex-app/static/media/coindcx.310d5686.webp",
+    "static/media/coinex.webp": "/digitex-app/static/media/coinex.7880be98.webp",
+    "static/media/etherium.webp": "/digitex-app/static/media/etherium.d06a4323.webp",
+    "static/media/fatbtc.webp": "/digitex-app/static/media/fatbtc.18bac467.webp",
+    "static/media/hitbtc.webp": "/digitex-app/static/media/hitbtc.bc47ece2.webp",
+    "static/media/kucoin.webp": "/digitex-app/static/media/kucoin.085fd6ee.webp",
+    "static/media/logo.svg": "/digitex-app/static/media/logo.7a8bd0a9.svg",
+    "static/media/mercatox.webp": "/digitex-app/static/media/mercatox.bc6c88d2.webp",
+    "static/media/probit.webp": "/digitex-app/static/media/probit.a9bd072c.webp",
+    "static/media/sale-icon-2.svg": "/digitex-app/static/media/sale-icon-2.686a1874.svg",
+    "static/media/sale-icon-3.svg": "/digitex-app/static/media/sale-icon-3.747e8549.svg",
+    "static/media/sale-icon-4.svg": "/digitex-app/static/media/sale-icon-4.41ba474b.svg",
+    "static/media/sale-icon.svg": "/digitex-app/static/media/sale-icon.78b643fa.svg",
+    "static/media/vcc-exchange.webp": "/digitex-app/static/media/vcc-exchange.790a142f.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.116fcc2d.js",
     "static/css/2.6d4ecc00.chunk.css",
-    "static/js/2.ad18c16b.chunk.js",
-    "static/css/main.84ceb500.chunk.css",
-    "static/js/main.9aa63751.chunk.js"
+    "static/js/2.218ad6f0.chunk.js",
+    "static/css/main.7911f13d.chunk.css",
+    "static/js/main.a49b60b6.chunk.js"
   ]
 }
